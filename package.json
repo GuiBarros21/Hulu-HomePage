@@ -2,18 +2,24 @@
   "name": "hulu-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://guibarros21.github.io/Hulu-HomePage/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "autoprefixer": "^10.3.1",
+    "gh-pages": "^3.2.3",
     "next": "11.0.1",
     "postcss": "^8.3.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "save-dev": "^0.0.1-security",
     "tailwindcss": "^2.2.4"
   },
   "devDependencies": {
