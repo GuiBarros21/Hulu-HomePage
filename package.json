@@ -2,7 +2,7 @@
   "name": "hulu-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guibarros21.github.io/Hulu-HomePage/",
+  "homepage": "https://guibarros21.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
